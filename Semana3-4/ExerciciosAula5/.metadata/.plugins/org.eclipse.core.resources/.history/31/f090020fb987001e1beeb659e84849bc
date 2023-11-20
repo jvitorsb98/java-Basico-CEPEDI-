@@ -1,0 +1,26 @@
+package exercicio4;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+	
+	public static boolean isImpar(int numero) {
+		return numero%2==0;
+	}
+	
+	public static void main(String[] args) {
+		int n1;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		n1 = sc.nextInt();
+		
+		if(isImpar(n1)) {
+			System.out.println(n1 + " é impar ");
+		}else {
+			System.out.println(n1 + " é par "); 
+		}
+		
+	}
+
+}

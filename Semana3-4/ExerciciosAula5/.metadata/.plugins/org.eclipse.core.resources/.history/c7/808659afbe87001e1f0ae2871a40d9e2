@@ -1,0 +1,23 @@
+package exercicio5;
+
+import java.util.Scanner;
+
+public class Exercicio5 {
+	
+	public static int menu() {
+		int escolha;
+		System.out.println("1 - Somar");
+		System.out.println("2 - Subttrair");
+		System.out.println("3 - Multiplicar");
+		System.out.println("4 - Dividir");
+		Scanner sc;
+		escolha = sc.nextInt();
+		return escolha;
+	}
+	
+	public static void main(String[] args) {
+		Scanner scP = new Scanner(System.in);
+		
+	}
+
+}

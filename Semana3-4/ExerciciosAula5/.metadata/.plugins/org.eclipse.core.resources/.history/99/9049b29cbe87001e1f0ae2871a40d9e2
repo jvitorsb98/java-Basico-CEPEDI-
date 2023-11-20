@@ -1,0 +1,12 @@
+package exercicio5;
+
+public class Exercicio5 {
+	
+	public static void menu() {
+		System.out.println("1 - Somar");
+		System.out.println("2 - Subttrair");
+		System.out.println("3 - Multiplicar");
+		System.out.println("4 - Dividir");
+	}
+
+}

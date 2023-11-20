@@ -1,0 +1,9 @@
+package exercicio8;
+
+public class Exercicio8 {
+	
+	public static int maiorIdade(int idade1, int idade2) {
+		return (idade1 > idade2) ? idade1 : idade2; 
+	}
+
+}

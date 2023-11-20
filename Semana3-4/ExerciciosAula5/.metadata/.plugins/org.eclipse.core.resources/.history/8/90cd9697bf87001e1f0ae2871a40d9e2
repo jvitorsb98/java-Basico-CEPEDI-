@@ -1,0 +1,44 @@
+package exercicio5;
+
+import java.util.Scanner;
+
+public class Exercicio5 {
+	
+	public static int menu() {
+		char escolha;
+		System.out.println("A - Somar");
+		System.out.println("S - Subttrair");
+		System.out.println("M - Multiplicar");
+		System.out.println("D - Dividir");
+		Scanner sc = new Scanner(System.in);
+		escolha = sc.nextLine().charAt(0);
+		return escolha;
+	}
+	
+	public static void main(String[] args) {
+		Scanner scP = new Scanner(System.in);
+		int escolha;
+		double n1,n2;
+		
+		System.out.println("Digite o primeiro numero : ");
+		n1 = scP.nextDouble();
+		
+		System.out.println("Digite o segundo numero : ");
+		n2 = scP.nextDouble();
+		
+		escolha = menu();
+		
+		switch(escolha) {
+		case 'A' : System.out.println(n1+n2);
+			break;
+		case 'S': System.out.println(n1-n2);
+			break;
+		case 'M': System.out.println(n1*n2);
+			break;
+		case 'D': System.out.println(n1/n2);
+			break;
+		}
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package exercicio6;
+
+import java.util.Scanner;
+
+public class Exercicio6 {
+	
+	public static double area(double comp, double larg) {
+		return comp*larg;
+	}
+	
+	public static void main(String[] args) {
+		double c, l;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Comprimento : ");
+		c = sc.nextDouble();
+		System.out.println("Largura : ");
+		l = sc.nextDouble();
+		
+		System.out.println("Area : " + area(c,l));
+	}
+
+}

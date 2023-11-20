@@ -1,0 +1,33 @@
+package exercicio2;
+
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+	
+	public static double media(double 1)
+	
+	
+	public static void main(String[] args) {
+		double [3][3] notas_e_pesos;
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite o primeiro numero : ");
+		n1 =  sc.nextDouble();
+		System.out.println("Digite o peso do primeiro numero : ");
+		p1 =  sc.nextDouble();
+		System.out.println("Digite o segundo numero : ");
+		n2 =  sc.nextDouble();
+		System.out.println("Digite o peso do primeiro numero : ");
+		p2 =  sc.nextDouble();		
+		System.out.println("Digite o terceiro numero : ");
+		n3 =  sc.nextDouble();
+		System.out.println("Digite o peso do primeiro numero : ");
+		p3 =  sc.nextDouble();
+		
+		resultado = soma(n1,n2);
+		System.out.println("Resultado : " + resultado);
+
+	}
+
+}

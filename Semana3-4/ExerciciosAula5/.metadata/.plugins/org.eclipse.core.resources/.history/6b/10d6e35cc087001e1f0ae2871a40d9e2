@@ -1,0 +1,31 @@
+package exercicio10;
+
+import java.util.ArrayList;
+
+public class Pergunta {
+	
+	private String textoParaPergunta;
+	private ArrayList<String> alternativas =  new ArrayList<>();
+	
+	
+	public void mostraPergunta() {
+		System.out.println(getTextoParaPergunta() + "?");
+	}
+	
+	
+	public String getTextoParaPergunta() {
+		return textoParaPergunta;
+	}
+	public void setTextoParaPergunta(String textoParaPergunta) {
+		this.textoParaPergunta = textoParaPergunta;
+	}
+	public ArrayList<String> getAlternativas() {
+		return alternativas;
+	}
+	public void setAlternativas(ArrayList<String> alternativas) {
+		this.alternativas = alternativas;
+	} 
+	
+	
+	
+}

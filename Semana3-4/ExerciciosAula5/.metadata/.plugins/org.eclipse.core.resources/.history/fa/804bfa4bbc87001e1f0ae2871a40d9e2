@@ -1,0 +1,35 @@
+package exercicio8;
+
+import java.util.Scanner;
+
+public class Exercicio8 {
+	
+	public static int maiorIdade(int idade1, int idade2) {
+		return (idade1 > idade2) ? idade1 : idade2; 
+	}
+	
+	public static boolean verificaMaioridade(int idade) {
+		return idade >= 18;
+	}
+	
+	public static boolean calculaIdade(int dia, int mes , int ano ,int diaAtual, int mesAtual ,int anoAtual) {
+		
+		
+		
+		return true
+	}
+	
+	public static void main(String[] args) {
+		int idade1 , idade2;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a primeira idade : ");
+		idade1 = sc.nextInt();
+		
+		System.out.println("Digite a segunda idade : ");
+		idade2 = sc.nextInt();
+		
+		System.out.println("A maior idade é " + maiorIdade(idade1,idade2));
+	}
+
+}

@@ -1,0 +1,39 @@
+package exercicio5;
+
+import java.util.Scanner;
+
+public class Exercicio5 {
+	
+	public static int menu() {
+		int escolha;
+		System.out.println("1 - Celsiu para fahrenheit");
+		System.out.println("2 - fahrenheit para Celsius");
+		Scanner sc = new Scanner(System.in);
+		escolha = sc.nextInt();
+		return escolha;
+	}
+	
+	public static void main(String[] args) {
+		Scanner scP = new Scanner(System.in);
+		int escolha;
+		double n1;
+		
+		System.out.println("Digite a temperatura : ");
+		n1 = scP.nextDouble();
+		
+		
+		escolha = menu();
+		
+		switch(escolha) {
+		case 1 : System.out.println(n1*(9/5.0) + 32);
+			break;
+		case 2: System.out.println((n1-32)*(5.0/9));
+			break;
+			break;
+		default:
+			System.out.println("Escolha inválida");
+		}
+		
+	}
+
+}
