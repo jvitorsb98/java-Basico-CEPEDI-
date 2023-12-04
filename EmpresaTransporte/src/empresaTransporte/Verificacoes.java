@@ -20,6 +20,16 @@ public abstract class Verificacoes {
 		
 	}
 	
+	public static boolean verificaSeJaTemCPFCadastrado() {
+		
+	}
 	
+	public static boolean verificaSeJaTemRGCadastrado() {
+		
+	}
+	
+	public static boolean verificaSeJaTemPlacaCadastrado() {
+		
+	}
 	
 }
